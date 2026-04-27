@@ -1,0 +1,13 @@
+{
+  "name": "logicstar-installer",
+  "version": "0.0.1",
+  "private": true,
+  "description": "First-time installer for the logicstar CLI binary. Run via `npx github:logic-star-ai/logicstar-cli-releases`.",
+  "type": "module",
+  "bin": {
+    "logicstar-install": "install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
